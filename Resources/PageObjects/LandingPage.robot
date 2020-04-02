@@ -10,7 +10,7 @@ Load Starter Page
     Verify Starter Page Loaded
 
 Load
-    go to    ${START_URL.${ENVIRONMENT}}
+   go to    ${APP_UNDERTEST.${APP_ENVIRONMENT}}
 
 Verify Starter Page Loaded
     wait until element is visible    ${LANDINGPAGE_VERIFY_LOGO}

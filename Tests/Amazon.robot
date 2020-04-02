@@ -9,7 +9,7 @@ Test Teardown    Common.End web test
 
 *** Test Cases ***
 Logged-out User should be able to search for products
-    [Documentation]    Test case 1
+    [Documentation]    Test Case 1
     [Tags]    Smoke
     log    Executing test 1
 

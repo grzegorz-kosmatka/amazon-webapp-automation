@@ -1,5 +1,6 @@
 *** Variables ***
+${APP_ENVIRONMENT} =    prod
+&{APP_UNDERTEST}    prod=https://amazon.com
 ${BROWSER} =    chrome
-${ENVIRONMENT} =    prod
 ${INVALID_CREDENTIALS_SCENARIOS_CSV_FILE} =    Resources/Data/InputData.csv
-&{START_URL}    prod=https://amazon.com
+${DESIRED_CAPABILITIES} =    name:Windows 10 + edge chromium,platformName:Windows 10,browserName:MicrosoftEdge,browserVersion:80.0
